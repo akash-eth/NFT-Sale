@@ -281,7 +281,7 @@ interface IERC721 is IERC165 {
 
 pragma solidity ^0.8.7;
 
-contract ForwardNFTSale is Ownable {
+contract Airdrop is Ownable {
   struct NFTDetail {
     address NFTContractAddress;
     uint tokenId;
